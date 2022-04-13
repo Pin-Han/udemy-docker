@@ -1,4 +1,4 @@
-FROM node
+FROM node:12
 
 # let docker know, after run 'npm install', the work env  move to /app
 WORKDIR /app 
